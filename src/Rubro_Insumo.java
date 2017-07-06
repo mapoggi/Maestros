@@ -19,5 +19,10 @@ public class Rubro_Insumo {
     public String getNombre() {
         return nombre;
     }
+
+    public Rubro_Insumo(Integer codigo, String nombre) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
     
 }

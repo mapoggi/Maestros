@@ -29,5 +29,12 @@ public class Receta {
     public Envase getEnvase() {
         return envase;
     }
+
+    public Receta(Insumo insumo, String articulo, Integer cantidad, Envase envase) {
+        this.insumo = insumo;
+        this.articulo = articulo;
+        this.cantidad = cantidad;
+        this.envase = envase;
+    }
     
 }

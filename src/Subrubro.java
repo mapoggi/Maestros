@@ -19,5 +19,10 @@ public class Subrubro {
     public String getNombre() {
         return nombre;
     }
+
+    public Subrubro(Integer codigo, String nombre) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
    
 }

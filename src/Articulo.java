@@ -34,5 +34,13 @@ public class Articulo {
     public Subrubro getSubrubro() {
         return subrubro;
     }
+
+    public Articulo(Integer codigo, String nombre, String descripcion, Rubro rubro, Subrubro subrubro) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.rubro = rubro;
+        this.subrubro = subrubro;
+    }
     
 }

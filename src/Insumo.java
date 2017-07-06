@@ -39,6 +39,14 @@ public class Insumo {
     public Rubro_Insumo getRubro_insumo() {
         return rubro_insumo;
     }
+
+    public Insumo(Integer codigo, String nombre, String unidad_med, Integer precio, Rubro_Insumo rubro_insumo) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.unidad_med = unidad_med;
+        this.precio = precio;
+        this.rubro_insumo = rubro_insumo;
+    }
     
     
     

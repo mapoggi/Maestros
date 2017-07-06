@@ -29,5 +29,12 @@ public class Envase {
     public Integer getCantidad() {
         return cantidad;
     }
+
+    public Envase(Integer codigo, String nombre, Integer unidad, Integer cantidad) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.unidad = unidad;
+        this.cantidad = cantidad;
+    }
     
 }
